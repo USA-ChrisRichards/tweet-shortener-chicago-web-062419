@@ -3,15 +3,15 @@ require 'pry'
 def dictionary
   dictionary = 
   {"hello" => 'hi', 
-   " too " => ' 2 ',
-   " to " => ' 2 ',
-   " two " => ' 2 ',
-   " for " => ' 4 ',
-   " four " => ' 4 ',
-   " be " => ' b ',
-   " you " => ' u ',
-   " at " => " @ ",
-   " and " => " & "
+   "too" => '2',
+   "to" => '2',
+   "two" => '2',
+   "for" => '4',
+   "four" => '4',
+   "be" => 'b',
+   "you" => 'u',
+   "at" =>  "@",
+   "and" => "&"
   }
 end
 def word_substituter(tweet_string)
