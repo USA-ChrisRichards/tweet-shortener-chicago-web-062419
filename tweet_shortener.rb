@@ -15,7 +15,7 @@ def dictionary
   }
 end
 def word_substituter(tweet_string)
-  
+  array_tweet = tweet_string.split("")
 end
 
 =begin
