@@ -16,7 +16,7 @@ def dictionary
 end
 
 =begin
-≈
+  
   dictionary.each do |key, value|
     while tweet_string.include? key
         tweet_string[key] = value
