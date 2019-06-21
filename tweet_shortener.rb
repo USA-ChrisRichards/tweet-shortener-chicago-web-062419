@@ -19,7 +19,7 @@ def word_substituter(tweet_string)
   array_tweet.each_with_index do |word, index|
     dictionary.each do |key, value|
       if word == key
-        word.replace(value)
+        tweet[index]
       end
     end
   end
