@@ -2,7 +2,7 @@
 require 'pry'
 def dictionary
   dictionary = 
-  {" hello " => ' hi ', 
+  {"hello" => 'hi', 
    " too " => ' 2 ',
    " to " => ' 2 ',
    " two " => ' 2 ',
