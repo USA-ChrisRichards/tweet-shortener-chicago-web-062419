@@ -30,6 +30,8 @@ def bulk_tweet_shortener(array_tweets)
   array_tweets.each {|tweet| puts word_substituter(tweet)}
 end
 
-def selective_tweet_shortener
-  
+def selective_tweet_shortener(tweet)
+  if tweet.size > 140
+    
+  end
 end
