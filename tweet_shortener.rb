@@ -15,7 +15,8 @@ def dictionary
   }
 end
 
-def word_substituter(tweet_string)
+=begin
+≈
   dictionary.each do |key, value|
     while tweet_string.include? key
         tweet_string[key] = value
@@ -23,6 +24,7 @@ def word_substituter(tweet_string)
   end
   tweet_string
 end
+=end
 
 def bulk_tweet_shortener(array_tweets)
   array_tweets.map {|tweet| puts word_substituter(tweet)}
