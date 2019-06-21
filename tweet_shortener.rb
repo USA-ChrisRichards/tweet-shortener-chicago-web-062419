@@ -20,6 +20,7 @@ def word_substituter(tweet_string)
     dictionary.map do |key, value|
       if word == key
         word.replace(value)
+      end
     end
   end
   array_tweet.join(" ")
