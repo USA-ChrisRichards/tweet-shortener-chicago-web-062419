@@ -14,9 +14,12 @@ def dictionary
    " and " => " & "
   }
 end
+def word_substituter(tweet_string)
+  
+end
 
 =begin
-  
+def word_substituter(tweet_string)
   dictionary.each do |key, value|
     while tweet_string.include? key
         tweet_string[key] = value
