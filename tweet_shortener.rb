@@ -19,7 +19,7 @@ def word_substituter(tweet_string)
   array_tweet.map do |word|
     dictionary.map do |key, value|
       if word == key
-        
+        word.replace?(value)
     end
   end
 end
